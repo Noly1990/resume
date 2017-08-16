@@ -12,7 +12,7 @@
 
 .header-content {
     margin-top: 15px;
-    color: #8F8C8C;
+    color: #666666;
 }
 
 .header-photo img:first-of-type {
@@ -107,4 +107,23 @@
 
 .card-title {
     color: #1364C2 !important;
+}
+
+@media screen and (max-width: 576px) {
+    .headImg1 {
+        display: none;
+    }
+    .headImg2 {
+        display: none;
+    }
+    .headImg3 {
+        width: 100%;
+        height: 80px;
+    }
+    .header-content {
+        float: left;
+    }
+    .header-photo {
+        float: right;
+    }
 }
